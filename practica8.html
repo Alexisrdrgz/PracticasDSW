@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        margin: 10px;
+    }
+    select{
+        margin: 10px;
+    }
+    input[type="submit"]{
+        margin: 10px;
+    }
+    input[type="text"]{
+        margin: 10px;
+    }
+    input[type="number"]{
+        margin: 10px;
+    }
+    input[type="radio"]{
+        margin: 10px;
+    }
+    input[type="checkbox"]{
+        margin: 10px;
+    }
+    input[type="textarea"]{
+        margin: 10px;
+    }
+</style>
+<body>
+    <!-- Rodriguez Camacho Alexis 1260047 -->
+    <form action="mailto:rodrigueza47@uabc.edu.mx" method="get">
+        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Nombre" label="Nombre">
+        Edad: <input type="number" name="edad" id="edad" placeholder="Edad">
+        Genero: <select placeholder="Generro" value="Genero">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+        <input type="radio" name="Leer" id="Leer" value="Leer">Leer
+        <input type="radio" name="Caminar" id="Caminar" value="Caminar">Caminar
+        <input type="checkbox" name="Deacuerdo" id="Deacuerdo" value="Deacuerdo">Deacuerdo
+        <input type="submit" value="Enviar">
+        Comentarios: <textarea type="textarea" name="Comentarios" placeholder="Comentarios" rows="5" cols="25"> </textarea>
+
+    </form>
+</body>
+</html>
