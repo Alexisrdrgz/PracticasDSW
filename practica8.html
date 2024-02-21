@@ -39,8 +39,8 @@
 <body>
     <!-- Rodriguez Camacho Alexis 1260047 -->
     <form action="mailto:rodrigueza47@uabc.edu.mx" method="get">
-        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Nombre" label="Nombre">
-        Edad: <input type="number" name="edad" id="edad" placeholder="Edad">
+        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Nombre no mayor a 10 digitos" label="Nombre" maxlength="10">
+        Edad: <input type="number" name="edad" id="edad" placeholder="Edad" min="10" max="18">
         Genero: <select placeholder="Generro" value="Genero">
             <option value="Hombre">Hombre</option>
             <option value="Mujer">Mujer</option>
@@ -49,7 +49,7 @@
         <input type="radio" name="Caminar" id="Caminar" value="Caminar">Caminar
         <input type="checkbox" name="Deacuerdo" id="Deacuerdo" value="Deacuerdo">Deacuerdo
         <input type="submit" value="Enviar">
-        Comentarios: <textarea type="textarea" name="Comentarios" placeholder="Comentarios" rows="5" cols="25"> </textarea>
+        Comentarios: <textarea type="textarea" name="Comentarios" placeholder="Comentarios" rows="6" cols="25"> </textarea>
 
     </form>
 </body>
